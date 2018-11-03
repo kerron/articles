@@ -198,7 +198,7 @@ element.style.getPropertyValue(--custom);
 getComputedStyle(element).getPropertyValue('‘--custom'); 
 
 /*set variable value if inline*/
-element.style.setProperty('--custom, 10 + 5); 
+element.style.setProperty('--custom, 10 + 5'); 
 ```
 
 This opens up a new realm of possibilities and makes it very simple to update CSS properties via JavaScript and still keep a great order of separation.
